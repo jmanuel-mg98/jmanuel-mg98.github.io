@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Participar</title>
+</head>
+<body>
+    <div>
+        <div> <a href="reyesmagos.html">INICIO</a></div>
+        <div><a href="reyesmagos-participar.html">PARTICIPAR</a></div>
+        <div><a href="reyesmagos-carrozas.html">CARROZAS</a></div>
+    </div><br><br><br>
+	<form>
+    <fieldset>
+        <legend><h1>PARTICIPAR</h1></legend>
+    <h5>Si usted desea participar como componente en el cortejo de la cabalgata de reyes magos del presente año, deberá de rellenar el siguiente formulario.</h5>
+    <h3>
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" required><br><br>
+    <label for="apellidos">Apellidos</label>
+    <input type="text" name="apellidos" id="apellidos" required><br><br>
+    <label for="correo">Correo Electronico</label>
+    <input type="email" name="correo" id="correo" placeholder="ejemplo@gmail.com" required>
+    <h4>
+    <input type="checkbox" name="momento[]" value="carroza" id="tipo1">Participar en la carroza
+    <input type="checkbox" name="momento[]" value="beduino" id="tipo2">Participar como beduino<br><br>
+    <label><b>Carroza</b></label><br>
+    <select multiple name="carroza[]">
+         <option value="estrella" id="carroza1">Estrella de la Ilusion</option>
+          <option value="melchor" id="carroza2">S.S.M.M. Rey Melchor</option>
+          <option value="gaspar" id="carroza3">S.S.M.M. Rey Gaspar</option>
+          <option value="baltasar" id="carroza4">S.S.M.M. Rey Baltasar</option>
+    </select><br><br>
+    <label for="horas">Talla del disfraz</label><br>
+    <input type="radio" value="xs"  id="talla1">XS
+    <input type="radio" value="s" id="talla2">S
+    <input type="radio" value="m" id="talla3">M
+    <input type="radio" value="s" id="talla4">L
+    <input type="radio" value="m" id="talla5">XL
+    </h3>
+    </fieldset>
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
